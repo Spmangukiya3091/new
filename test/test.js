@@ -5,7 +5,7 @@ var expect = chai.expect;
 chai.use(chaiHttp);
 
 describe('sample_tests', function() {
-	it('test 0', (done) => {
+	it('test 0', () => {
         expect(1).to.be.equal(1);
 	});
 });
